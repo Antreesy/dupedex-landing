@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+    max-width: 1920px;
+
+    margin: 0 auto;
+    padding: var(--header-height) var(--container-padding) 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: calc(100vh - var(--header-height));
+    padding-top: 100px;
+    z-index: 1;
+}
+
+.heading {
+    margin: 0;
+    font-weight: 400;
+    font-size: 77px;
+}
+
+.cursive {
+    font-family: Quentin, sans-serif;
+}
+
+.text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.background {
+    position: absolute;
+    inset: 0;
+}
+
+
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.item {
+}
