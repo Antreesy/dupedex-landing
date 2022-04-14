@@ -1,5 +1,7 @@
 .section {
-   padding: calc(var(--header-height) / 2) 0;
+    height: 100vh;
+    min-height: 1024px;
+    padding-top: var(--header-height);
 }
 
 .container {
@@ -10,7 +12,6 @@
 
     margin: 0 auto;
     padding: 0 var(--container-padding);
-    padding-top: calc(var(--header-height) / 2);
 }
 
 .content {
@@ -18,7 +19,7 @@
     flex-direction: column;
     align-items: start;
     height: calc(1024px - var(--header-height));
-    padding-top: 40px;
+    padding-top: 80px;
     z-index: 1;
 }
 
@@ -53,6 +54,6 @@
 
 @media screen and (max-width: 1280px) {
     .content {
-        padding-top: 110px;
+        padding-top: 130px;
     }
 }
