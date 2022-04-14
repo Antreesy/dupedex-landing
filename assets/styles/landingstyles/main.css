@@ -1,6 +1,5 @@
-.main {
-    overflow-x: hidden;
-}
+/* .main {
+} */
 
 /* HERO SECTION */
 
@@ -12,12 +11,10 @@
     flex-direction: column;
     align-items: flex-end;
     flex: 0 0 100%;
-
-
 }
 .hero-section__content {
-    max-width: 740px;
-    padding-right: 100px;
+    max-width: 43%;
+    padding-right: 6%;
 }
 
 .hero-section__heading {
@@ -35,9 +32,9 @@
     background-color: var(--color-turquoise);
 }
 .hero-section__background_image {
-    width: 924px;
-    height: 692px;
-    transform: translate(100px, 130px);
+    width: 48%;
+    height: 68%;
+    transform: translate(10%, 130px);
 
     background-image: url("../../img/hero-bgimage.png");
     background-position: center;
@@ -56,7 +53,7 @@
     flex: 0 0 100%;
 }
 .card-section__content {
-    max-width: 700px;
+    max-width: 48%;
 }
 
 .card-section__heading {
@@ -67,10 +64,12 @@
 }
 
 .card-section__background_image {
-    width: 690px;
-    height: 726px;
-    transform: translate(1020px, 120px);
-
+    width: 36%;
+    min-width: 450px;
+    height: 71%;
+    inset: auto;
+    right: 0;
+    transform: translate(-10%, 80px);
     background-image: url("../../img/card-bgimage.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -90,7 +89,9 @@
     flex: 0 0 100%;
 }
 .review-section__content {
+    justify-content: space-between;
     width: 100%;
+    height: calc(100vh - var(--header-height));
     padding: 40px 0;
 }
 
@@ -100,7 +101,6 @@
     max-width: 1000px;
     margin: 0 auto;
     padding-bottom: 30px;
-    margin-bottom: 570px;
     border-bottom: 1px solid var(--color-txt-white);
 }
 .review-section__btn {
@@ -108,12 +108,15 @@
 }
 
 .review-section__background_image {
-    width: 1576px;
-    height: 489px;
-    transform: translate(140px, 380px);
+    width: 80%;
+    min-width: 960px;
+    height: 46%;
+    inset: auto;
+    left: 50%;
+    transform: translate(-50%, 340px);
 
     background-image: url("../../img/review-bgimage.png");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -150,12 +153,15 @@
 }
 
 .library-section__background_image {
-    width: 1238px;
-    height: 557px;
-    transform: translate(420px, 320px);
+    width: 64%;
+    min-width: 960px;
+    height: 54%;
+    inset: auto;
+    left: 50%;
+    transform: translate(-50%, 260px);
 
     background-image: url("../../img/library-bgimage.png");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
