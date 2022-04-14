@@ -18,7 +18,7 @@
 }
 
 .hero-section__heading {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .hero-section__text {
     margin-bottom: 45px;
@@ -26,15 +26,18 @@
 
 .hero-section__background_stripe {
     width: 200vw;
-    height: 500px;
+    height: 400px;
+    inset: 0;
     transform: translateX(-50%);
 
     background-color: var(--color-turquoise);
 }
 .hero-section__background_image {
-    width: 48%;
+    width: 44%;
     height: 68%;
-    transform: translate(10%, 130px);
+    top: 50%;
+    left: 0;
+    transform: translate(10%, -65%);
 
     background-image: url("../../img/hero-bgimage.png");
     background-position: center;
@@ -53,11 +56,11 @@
     flex: 0 0 100%;
 }
 .card-section__content {
-    max-width: 48%;
+    max-width: 58%;
 }
 
 .card-section__heading {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .card-section__text {
     margin-bottom: 45px;
@@ -65,7 +68,7 @@
 
 .card-section__background_image {
     width: 36%;
-    min-width: 450px;
+    min-width: 460px;
     height: 71%;
     inset: auto;
     right: 0;
@@ -91,7 +94,6 @@
 .review-section__content {
     justify-content: space-between;
     width: 100%;
-    height: calc(100vh - var(--header-height));
     padding: 40px 0;
 }
 
@@ -108,13 +110,11 @@
 }
 
 .review-section__background_image {
+    position: static;
     width: 80%;
     min-width: 960px;
     height: 46%;
-    inset: auto;
-    left: 50%;
-    transform: translate(-50%, 340px);
-
+    align-self: center;
     background-image: url("../../img/review-bgimage.png");
     background-position: top;
     background-repeat: no-repeat;
@@ -219,4 +219,10 @@
     right: 0;
     transform: translate(40px, -10px);
     background-image: url("../../img/star-after.png");
+}
+
+@media screen and (max-width: 1280px) {
+    .card-section__content {
+        max-width: 45%;
+    }
 }

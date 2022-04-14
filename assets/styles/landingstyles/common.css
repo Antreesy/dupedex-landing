@@ -17,8 +17,8 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    height: 1024px;
-    padding-top: 100px;
+    height: calc(1024px - var(--header-height));
+    padding-top: 40px;
     z-index: 1;
 }
 
@@ -40,7 +40,6 @@
 
 .background {
     position: absolute;
-    inset: 0;
 }
 
 .list {
@@ -54,6 +53,6 @@
 
 @media screen and (max-width: 1280px) {
     .content {
-        padding-top: 150px;
+        padding-top: 110px;
     }
 }
