@@ -12,11 +12,11 @@ document.querySelector('.button').addEventListener('click', (e)=>{
             "Content-Type": "application/json",
             "Accept": "application/json",
             "Authorization": "Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==",
-            "USERNAME": "raycai@hotmail.co.nz",
-            "API_KEY": "9D54BDB7-A845-6768-CE45-24D20616F883"
+            "username": "raycai@hotmail.co.nz",
+            "password": "9D54BDB7-A845-6768-CE45-24D20616F883"
         },
         body: JSON.stringify({
-            phone,userName,apiKey
+            phone
             })
     }
     fetch(url, options)
