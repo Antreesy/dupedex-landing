@@ -24,6 +24,15 @@
     margin-bottom: 45px;
 }
 
+.hero-section__form {
+    display: flex;
+    align-items: center;
+}
+
+.hero-section__label {
+    margin-right: 10px;
+}
+
 .hero-section__background_stripe {
     width: 200vw;
     height: 400px;
