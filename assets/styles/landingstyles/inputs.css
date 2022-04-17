@@ -33,19 +33,6 @@
     font-size: calc(1.6 * var(--input-font-size));
 }
 
-/* .input_text {
-    text-underline-offset: 5px;
-}
-.input_text:focus {
-    text-decoration: underline;
-}
-.input_text:hover,
-.input_text:active {
-    text-decoration: underline;
-    color: var(--color-txt-dark);
-} */
-
-
 .input_outlined {
     border: 1px solid var(--color-grey);
     background-color: var(--color-white);
@@ -53,7 +40,7 @@
 .input_outlined:hover {
     background-color: var(--color-peach);
 }
-.input_outlined:focus {
+.input_outlined:focus-visible {
     border-color: var(--color-grey-dark);
     outline: 1px solid var(--color-grey-dark);
     background-color: var(--color-white);
@@ -63,35 +50,6 @@
     border-color: var(--color-grey-dark);
     background-color: var(--color-white);
 }
-
-/* .input_filled {
-    color: var(--color-txt-white);
-    border: 1px solid var(--color-grey);
-    background-color: var(--color-button-grey);
-}
-.input_filled:focus {
-    background-color: var(--color-button-grey-dark);
-}
-.input_filled:hover,
-.input_filled:active {
-    color: var(--color-white);
-    border-color: var(--color-grey-dark);
-    background-color: var(--color-button-grey-darker);
-}
-.input_filled-light {
-    color: var(--color-button-grey);
-    border: 1px solid var(--color-grey);
-    background-color: var(--color-white);
-}
-.input_filled-light:focus {
-    background-color: var(--color-beige);
-}
-.input_filled-light:hover,
-.input_filled-light:active {
-    color: var(--color-button-grey-darker);
-    border-color: var(--color-grey-dark);
-    background-color: var(--color-beige-dark);
-} */
 
 @media screen and (max-width: 1024px) {
     .input {
