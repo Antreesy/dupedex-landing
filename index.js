@@ -87,7 +87,6 @@ document.querySelectorAll('.close_modal').forEach(btn => {
     })
 })
 
-
 const checkAuth = () => {
     const authOptions = {
         method: "GET",
@@ -138,12 +137,3 @@ document.querySelector('#sent_button').addEventListener('click', (e) => {
     //     .then((result) => {
     //         return console.log(result)})
 })
-
-// const rex = /^([0-9]( |-)?)?(\(?[0-9]{3}\)?|[0-9]{3})( |-)?([0-9]{3}( |-)?[0-9]{4}|[a-zA-Z0-9]{7})$/;
-//
-// const validPhone = () => {
-//     const valid = rex.test(myPhone.value);
-//     console.log(valid)
-//     valid ? output = '' : output = 'Wrong number';
-//     document.getElementById('message').innerHTML = output;
-// }
