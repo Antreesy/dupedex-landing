@@ -24,6 +24,13 @@
     margin-bottom: 45px;
 }
 
+.hero-section__text_error {
+    color: red;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: calc(0.6 * var(--text-font-size));
+}
+
 .hero-section__form {
     display: flex;
     align-items: center;
@@ -195,6 +202,7 @@
 .ready-section__content {
     align-items: center;
     width: 100%;
+    height: 150px;
     padding: 0;
 }
 

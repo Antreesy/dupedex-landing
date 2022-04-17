@@ -59,13 +59,17 @@
     color: var(--color-black);
 }
 
-.dialog__input {
+.dialog__pin-form {
+    display: flex;
+    flex-direction: column;
     width: 65%;
+}
+
+.dialog__input {
     margin-bottom: 30px;
 }
 
 .dialog__btn-wrapper {
-    width: 65%;
     display: flex;
     justify-content: space-between;
     align-items: center;

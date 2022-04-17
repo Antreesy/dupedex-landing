@@ -18,7 +18,7 @@
     transition-timing-function: ease;
 }
 
-.btn:focus {
+.btn:focus-visible {
     transform: scale(1.02);
 }
 .btn:hover {
@@ -46,7 +46,7 @@
 .btn_text {
     text-underline-offset: 5px;
 }
-.btn_text:focus {
+.btn_text:focus-visible {
     text-decoration: underline;
 }
 .btn_text:hover,
@@ -60,7 +60,7 @@
     border: 1px solid var(--color-grey);
     background-color: var(--color-white);
 }
-.btn_outlined:focus {
+.btn_outlined:focus-visible {
     background-color: var(--color-peach);
 }
 .btn_outlined:hover,
@@ -75,7 +75,7 @@
     border: 1px solid var(--color-grey);
     background-color: var(--color-button-grey);
 }
-.btn_filled:focus {
+.btn_filled:focus-visible {
     background-color: var(--color-button-grey-dark);
 }
 .btn_filled:hover,
@@ -89,7 +89,7 @@
     border: 1px solid var(--color-grey);
     background-color: var(--color-white);
 }
-.btn_filled-light:focus {
+.btn_filled-light:focus-visible {
     background-color: var(--color-beige);
 }
 .btn_filled-light:hover,
