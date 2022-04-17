@@ -7,6 +7,7 @@ const modal = document.querySelector(".modal")
 const dialogVerify = document.querySelector(".dialog__verify_wrapper")
 const dialogMessage = document.querySelector(".dialog__message_wrapper")
 const messageBox = dialogMessage.querySelector(".dialog__caption")
+
 const closeBtn = dialogMessage.querySelector(".close_modal")
 
 const phoneInput = document.querySelector('#phone_input')
@@ -53,6 +54,7 @@ function validatePhone(e) {
 }
 
 const fakeVerifying = (phone) => {
+
     const phoneRegexp = /^\+{1}([0-9]{4,13})$/g
     const isPhoneValid = phone.match(phoneRegexp)
 
@@ -63,6 +65,7 @@ const fakeVerifying = (phone) => {
         modal.classList.toggle("is-active")
         dialogVerify.classList.toggle("is-active")
         document.body.classList.toggle("not-scrollable")
+
         pinInput.focus()
         errorMessage.textContent = ''
     }
@@ -137,3 +140,4 @@ document.querySelector('#sent_button').addEventListener('click', (e) => {
     //     .then((result) => {
     //         return console.log(result)})
 })
+
