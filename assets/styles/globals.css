@@ -55,6 +55,9 @@ body {
   background-color: var(--color-main-bg);
   overflow-x: hidden;
 }
+body.not-scrollable {
+  overflow: hidden;
+}
 
 body::-webkit-scrollbar {
   width: 8px;
